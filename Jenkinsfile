@@ -13,7 +13,7 @@ pipeline {
     }
 
     environment {
-      PATH="/Users/vadim/miniconda/bin:$PATH"
+      PATH="C:\Users\Vadim_Shatalov\AppData\Local\Continuum\miniconda3\condabin\:$PATH"
     }
 
     stages {
