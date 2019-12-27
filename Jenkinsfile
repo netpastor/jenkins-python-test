@@ -23,6 +23,12 @@ pipeline {
                 checkout scm
             }
         }
+        
+        stage('Check environment') {
+            steps {
+                echo ${PATH}
+            }
+        }
 
         stage('Build environment') {
             steps {
