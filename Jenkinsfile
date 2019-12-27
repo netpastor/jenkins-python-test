@@ -26,7 +26,7 @@ pipeline {
         
         stage('Check environment') {
             steps {
-                echo ${PATH}
+                echo "${PATH}"
             }
         }
 
